@@ -1213,7 +1213,7 @@ body {
 
 /* 
 =====================
-Half moon Start
+Moon Start
 =====================
  */
 
@@ -1226,12 +1226,14 @@ Half moon Start
     border-radius: 50%;
     background-image: url("../img/2k_moon.jpg");
     background-size: 110% 100%;
+    box-shadow: 0 0 40px rgba(255, 255, 200, 0.5);
     animation-name: moonRotation;
     animation-duration:  15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     z-index: 1000;
+    
 }
 
 @keyframes moonRotation {
@@ -1250,14 +1252,14 @@ Half moon Start
 
 /* 
 =====================
-Half moon End
+Moon End
 =====================
  */
 
 
 /* 
 =====================
-Half moon Start
+Shooting star Start
 =====================
  */
 
@@ -1358,6 +1360,6 @@ Half moon Start
 
 /* 
 =====================
-Half moon End
+Shooting star End
 =====================
  */
